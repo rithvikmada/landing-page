@@ -52,3 +52,20 @@ body {
     max-width: 150px;
     max-height: 150px;
 }
+
+/* QUOTE */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 150px;
+}
+
+.quote h2 {
+    align-self: flex-start;
+}
+
+.quote p {
+    align-self: flex-end;
+}
