@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*  HEADER */
+
+.header img {
+    height: 60px;
+    width: 60px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: sp;
+    padding: 0px 10px;
+}
+
+/*  HERO */
+
+.hero img {
+    height: 250px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.info *{
+    margin: 10px;
+}
