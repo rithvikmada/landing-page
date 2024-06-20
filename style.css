@@ -93,3 +93,11 @@ body {
     width: 100px;
     align-self: center;
 }
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
