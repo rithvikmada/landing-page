@@ -166,23 +166,43 @@ a:hover {
 .action {
     display: flex;
     justify-content: center;
+    padding: 50px 25px;
+    background-color: #ececee;
 }
 
 .box {
     display: flex;
-    background-color: aqua;
+    align-items: center;
+    background-color: #bebebe;
     gap: 90px;
     padding: 20px 75px;
+    border-radius: 10px
 }
 
 .call p {
     margin: 0;
 }
 
+#callout {
+    color: #2A77ED;
+}
+
 .box button {
     height: fit-content;
     width: 100px;
     align-self: center;
+
+    background-color: #e5e5e5;
+    color: #2A77ED;
+    border-color: #2A77ED;
+    border-width: 1px;
+    border-radius: 500px;
+    padding: 10px;
+}
+
+.box button:hover {
+    background-color: #2A77ED;
+    color: #ececec;
 }
 
 /* FOOTER */
