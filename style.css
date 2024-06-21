@@ -143,10 +143,14 @@ a:hover {
 /* QUOTE */
 
 .quote {
+    padding: 50px 25px; 
+}
+.text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 0 150px;
+    padding: 0 300px;
+    max-width: 75vw;
 }
 
 .quote h2 {
