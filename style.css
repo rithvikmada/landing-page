@@ -1,20 +1,45 @@
+@font-face {
+    font-family: 'SF-SemiB';
+    src: url(fonts/SFMono-Semibold.otf);
+}
+
 body {
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 /*  HEADER */
 
 .header img {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: sp;
-    padding: 0px 10px;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #F5F5F6;
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    font-family: "SF-SemiB";
+    word-spacing: -5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /*  HERO */
@@ -96,8 +121,15 @@ body {
 
 /* FOOTER */
 
+.content {
+    flex-grow: 1;
+}
+
 .footer {
     display: flex;
     justify-content: center;
     align-content: center;
+    background-color: #F5F5F6;
+    font-family: "SF-SemiB";
+    flex-grow: 0;
 }
