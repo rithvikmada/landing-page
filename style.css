@@ -3,11 +3,31 @@
     src: url(fonts/SFMono-Semibold.otf);
 }
 
+@font-face {
+    font-family: 'SF-Heavy';
+    src: url(fonts/SFMono-Heavy.otf);
+}
+
+@font-face {
+    font-family: 'SF-Regular';
+    src: url(fonts/SFMono-Regular.otf);
+}
+
+@font-face {
+    font-family: 'SF-RegularItalics';
+    src: url(fonts/SFMono-RegularItalic.otf);
+}
+
 body {
     min-height: 100vh; 
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'SF-Regular';
+}
+
+.italics {
+    font-style: italic;
 }
 
 /*  HEADER */
@@ -45,7 +65,8 @@ a:hover {
 /*  HERO */
 
 .hero img {
-    height: 250px;
+    height: 225px;
+    border-radius: 20px;
 }
 
 .hero {
@@ -53,10 +74,33 @@ a:hover {
     justify-content: center;
     align-items: center;
     gap: 35px;
+    padding: 50px 25px;
 }
 
-.info *{
+.info * {
     margin: 10px;
+}
+
+.hero h1 {
+    font-family: 'SF-Heavy';
+}
+
+.hero .italics {
+    color: #2A77ED;
+}
+
+.hero button {
+    background-color: #F5F5F6;
+    color: #2A77ED;
+    border-color: #2A77ED;
+    border-width: 1px;
+    border-radius: 500px;
+    padding: 10px;
+}
+
+.hero button:hover {
+    background-color: #2A77ED;
+    color: #F5F5F6;
 }
 
 /* IMAGES */
